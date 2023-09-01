@@ -1,0 +1,454 @@
+*{
+    border-style: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+}
+.c-nav{
+    width: 100%;
+    padding: 20px 42px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.c-logo_block{
+    width: 235px;
+    height: 25px;
+}
+.c-logo_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.c-nav_links{
+    padding: 5px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700 ;
+}
+
+.c-nav_links a{
+    color:#83888f ;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.c-hamburger{
+    display: block;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #151515;
+  }
+.uc-desktop-hide{
+    display: none;
+}  
+ .uc-mobile-hide{
+    display: block;
+  }
+  .hero-block{
+    margin-top: 70px;
+    width: 1280px;
+    height: 600px;
+    background: url(/Assets/Bitmap.svg);
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    object-fit: contain;
+}
+.hero_title{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    font-family: "fraunces 9pt";
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 50px;
+}
+.hero_text{
+    margin-left: 50px;
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero_description{
+    padding-left:  60px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero_description_text{
+    color: white;
+    font-family: "Barlow" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.uc-hero_btn{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    height: 56px;
+    background: #0E8784;
+    border-radius: 8px;
+    
+}
+.uc-hero_btn_link{
+    border: 1px solid #0E8784;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    text-decoration: none;
+    color: wheat;
+}
+.c-menu{
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-menu_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 254px;
+}
+.Uc-menu_logo-block{
+    width: 256px;
+    height: 193px;
+}
+.Uc-menu_logo{
+    object-fit: contain;
+}
+.uc-menu_tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.uc-menu_description{
+    font-family: "Barlow" sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.c-card_wrapper{
+    width: 1280px;
+    height: 528px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #2C343E;
+    border: 1px solid #2C343E;
+    border-radius: 5px;
+}
+.card-wrapper_text{
+    height: 200px;
+    width: 500px;
+    color: #FEFCF7;
+    padding: 40px;
+text-align: center;
+font-family: "Fraunces 9pt";
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px;
+}
+.card-wrapper_subtext{
+    max-width: 560px;
+    color: #FEFCF7;
+text-align: center;
+font-family: "Barlow" sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.cc-card{
+    width: 1280px;
+height: 382px;
+margin-top: 150px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-around;
+margin-bottom: 400px;
+}
+.uc-card_info{
+    width: 350px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #0E8784;
+}
+
+.card-icon_block{
+    width: 71px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon_img{
+    object-fit: contain;
+}
+.card-text_block{
+    max-width: 185px;
+}
+.card-text{
+    color: #FEFCF7;
+text-align: center;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px;
+text-align: center;
+}
+.card-subtext_block{
+    max-width: 255px;
+}
+.card-subtext{
+    color: #FEFCF7;
+text-align: center;
+font-family: "Barlow" sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.c-memo{
+    width: 1283px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #FEFCF7;
+    margin-top: 404px;
+}
+.c-memo_text{
+    width: 255px;
+    color: #83888F;
+font-family: "Fraunces 9pt";
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; 
+}
+.memo-container{
+    width: 1160px;
+    height: 355px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.uc-memo_card{
+    width: 285px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.memo_img-block{
+    width: 90px;
+    height: 72px;
+}
+.memo_img-block img{
+    object-fit: contain;
+}
+.memo-text_block{
+    max-width: 200px;
+}
+
+.memo-text{
+    color: #333D4B;
+font-family: "Fraunces 9pt";
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; 
+}
+
+
+.uc_memo-subtext{
+    max-width: 267px;
+    color: #333D4B;
+    font-family: "Barlow" sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.uc-memo_btn{
+    margin-top: 250px;
+    width: 217px;
+height: 56px;
+border-radius: 6px;
+background: #0E8784 ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.uc-memo_btn_link{
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    text-decoration: none;
+    color: wheat;   
+}
+.footer_block{
+    margin-top: 600px;
+    width: 1280px;
+height: 120px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background: #2C343E;
+}
+.footer-logo{
+    width: 235px;
+    height: 25px;
+    object-fit: contain;
+}
+.footer-links_block{
+    display: flex;
+width: 283px;
+height: 15px;
+padding-right: 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 33px;
+}
+.footer-links{
+    color: #83888F;
+font-family: "Barlow" sans-serif;
+padding: 4px;
+font-size: 9px;
+text-decoration: none;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; 
+letter-spacing: 0.923px;
+text-transform: uppercase;
+}
+.media{
+    width: 120px;
+height: 24px;
+}
+.media_links{
+    object-fit: contain;
+
+}
+/*phone landscap to below*/
+@media screen and (max-width : 767px){
+    
+    .c-nav{
+        padding: 24px 16px;
+    }
+    .c-nav_links{
+        display: none;
+    }
+    .c-nav_links {
+        position: fixed;
+        left: 100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #151515;
+        width: 540px;
+        text-align: center;
+        transition: 0.3s;
+      }
+    .c-nav_links.active{
+      height: 70%;
+      left: 100%;
+      margin-bottom: 50px;
+      background-color: #ffffff;
+      font-weight: 700;
+    }
+    .c-hamburger{
+      display: block;
+    }
+    .c-hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .c-hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .c-hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    
+      .uc-desktop-hide {
+        display: block;
+      }
+    
+      .uc-mobile-hide {
+        display: none;
+      }
+      .c-menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cc-card{
+        display: block;
+        gap: 8px;
+        padding-left: 80px;
+    }
+    .c-card_wrapper{
+        display: block;
+        margin-top: 300px;
+        margin-left: 100px;
+        max-width: 500px;
+    }
+    .hero-block{
+        max-width: 500px;
+        margin-left: 100px;
+        border-radius: 10px;
+    }
+    .hero{
+        background: url(/Assets/Bitmap.svg);
+        padding: 20px 0 0 20px;
+
+    }
+      body{
+        overflow-x: hidden;
+      }
+}
